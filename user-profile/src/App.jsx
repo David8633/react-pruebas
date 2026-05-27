@@ -13,17 +13,13 @@ function App() {
   });
 
   function updateProfile(newFormData){
-    const {name,value} = newFormData;
-    setProfileData(prev => ({
-      ...newFormData,
-      [name]:value
-    }))
+    setProfileData(newFormData);
   }
 
   return (
     <>
       <ProfileForm onUpdateProfile={updateProfile}/>
-      <ProfileCard data={profileData}/>
+      <ProfileCard {...profileData}/>
     </>
   )
 }
