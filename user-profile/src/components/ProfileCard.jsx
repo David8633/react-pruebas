@@ -6,7 +6,6 @@ export const ProfileCard = ({name,bio,showBadges,themeColor,check}) => {
 
                 <h4 className="fw-bold">{name || "Usuario por defecto"}</h4>
                 <p className="text-muted"> {bio || "bio"}</p>
-                <p>showBadges {showBadges}</p> 
                 {showBadges&& <h4 className="fw-bold">MEDALLAS</h4> }
 
                 <button className="btn btn-outline-primary w-100">Contactar</button>

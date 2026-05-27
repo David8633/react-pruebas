@@ -9,7 +9,7 @@ function App() {
     name: "Usuario Ejemplo",
     bio: "Este es mi perfil.",
     themeColor: "#007bff",
-    showBadges: true
+    showBadges: false
   });
 
   function updateProfile(newFormData){
