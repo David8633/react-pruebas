@@ -53,7 +53,14 @@ export const ProfileForm = ({ onUpdateProfile }) => {
                 </div>
 
                 <div className="form-check mb-3">
-                    <input className="form-check-input" type="checkbox" id="showBadges" name="showBadges" onChange={handleChange} value={form.showBadges}/>
+                    <input
+                        className="form-check-input"
+                        type="checkbox"
+                        id="showBadges"
+                        name="showBadges"
+                        onChange={handleChange}
+                        checked={form.showBadges}
+                    />
                     <label className="form-check-label" htmlFor="showBadges">
                         Mostrar Medallas
                     </label>
