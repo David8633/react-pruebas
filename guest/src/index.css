@@ -1,0 +1,108 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    color: #333;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Formulario */
+.add-guest {
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.guest-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.guest-form input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.guest-form label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.guest-form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+.guest-form button:hover {
+    background: #2c80b4;
+}
+
+/* Listas */
+.guest-list {
+    margin-bottom: 2rem;
+}
+
+.guest-list h2 {
+    margin-bottom: 0.8rem;
+}
+
+.guest-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guest-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirmed {
+    border-left: 5px solid #27ae60;
+}
+
+.not-confirmed {
+    border-left: 5px solid #e74c3c;
+}
+
+.guest-card button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.guest-card button:hover {
+    background: #333;
+}
