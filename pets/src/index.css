@@ -1,0 +1,102 @@
+/* ====== RESET BÁSICO ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ====== CONTENEDOR GENERAL ====== */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* ====== LABELS ====== */
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* ====== INPUTS ====== */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* ====== SELECT ====== */
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* ====== TEXTAREA ====== */
+textarea.form-control {
+  resize: vertical;
+}
+
+/* ====== GRUPOS ====== */
+.mb-3 {
+  margin-bottom: 18px;
+}
+
+/* ====== CHECKBOX & RADIO ====== */
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.form-check-input {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.form-check-label {
+  font-size: 15px;
+}
+
+/* ====== CARD PARA MOSTRAR DATOS ====== */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.card hr {
+  margin: 15px 0;
+}
+
+/* ====== SOMBRA ====== */
+.shadow-sm {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

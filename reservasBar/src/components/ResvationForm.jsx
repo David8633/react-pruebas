@@ -8,7 +8,7 @@ export const ReservationForm = ({ onAddBookings }) => {
         numberPerson: 0,
         ubicacion:"",
         babyChair: false,
-        hour: Date.now(),
+        hour: "",
         isConfirmed: false
     })
 
@@ -99,6 +99,8 @@ export const ReservationForm = ({ onAddBookings }) => {
                     <label className="form-check-label" htmlFor="exterior">Exterior</label>
                 </div>
             </div>
+
+            <input type="time" name="hour" id="hour" onChange={handleChange} value={form.hour} />
 
             {/* Campo: Silla de bebé (Checkbox) */}
             <div className="mb-4 form-check">

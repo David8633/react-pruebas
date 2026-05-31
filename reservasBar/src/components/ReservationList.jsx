@@ -6,7 +6,7 @@ export const ReservationList = ({allBookings,onToggleButton}) => {
     return (<>
     
         {allBookings.map(booking => {
-            return <ReservationItem key={booking} booking={booking} onToggleButton={onToggleButton} />})}
+            return <ReservationItem key={booking.id} booking={booking} onToggleButton={onToggleButton} />})}
 
     </>);
 }

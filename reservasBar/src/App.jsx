@@ -20,9 +20,9 @@ function App() {
   function toggleButton(id){
     setBookings(prev => {
       const updated = prev.map(booking => {
-        booking.id == id ? {...booking,isConfirmed:!booking.isonfirmed} : booking
+        return booking.id == id ? {...booking,isConfirmed:!booking.isConfirmed} : booking
       })
-      localStorage.setItem("allBooking",JSON.stringify(updated));
+      localStorage.setItem("allBookings",JSON.stringify(updated));
       return updated;
     })
   }
